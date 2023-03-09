@@ -55,7 +55,7 @@ def main():
     </div> 
     """
     # image = Image.open('lppppp.png')
-    # st.image(image, caption='Loan Prediction')
+    st.image("https://img.freepik.com/free-vector/bank-credit-finance-management-loan-agreement-signing-mortgage-money-credit_335657-3136.jpg?w=2000")
 
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html=True)
