@@ -65,7 +65,7 @@ def main():
     Married = st.selectbox('Marital Status', ("Unmarried", "Married"))
     ApplicantIncome = st.slider("Applicants monthly income",150,81000)
     Loan_Amount_Term = st.slider("Applicants loan amount term",12,480)
-    LoanAmount = st.slider("Total loan amount",9,700)
+    LoanAmount = st.slider("Total loan amount",1,20)
     Credit_History = st.selectbox('Credit_History', ("Clear Debts", "Unclear Debts"))
     Dependents = st.selectbox("no of dependents",("0","1","2","3","4"))
     Property_Area = st.radio("Property Land",("Rural","Semiurban","Urban"))
