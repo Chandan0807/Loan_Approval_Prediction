@@ -50,8 +50,8 @@ def prediction(Gender, Married, ApplicantIncome, LoanAmount, Loan_Amount_Term, C
 def main():
     # front end elements of the web page
     html_temp = """ 
-    <div style ="background-color:yellow;padding:13px"> 
-    <h1 style ="color:black;text-align:center;"> Loan Prediction </h1> 
+    <div style ="background-color:Red;padding:13px"> 
+    <h1 style ="color:black;text-align:center;"> Loan Approval Prediction </h1> 
     </div> 
     """
     # image = Image.open('lppppp.png')
