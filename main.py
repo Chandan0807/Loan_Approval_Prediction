@@ -54,7 +54,7 @@ def main():
     <h1 style ="color:black;text-align:center;"> Loan Approval Prediction </h1> 
     </div> 
     """
-    # image = Image.open('lppppp.png')
+   
     st.image("https://img.freepik.com/free-vector/bank-credit-finance-management-loan-agreement-signing-mortgage-money-credit_335657-3136.jpg?w=2000")
 
     # display the front end aspect
