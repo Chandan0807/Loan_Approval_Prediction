@@ -67,7 +67,7 @@ def main():
     Loan_Amount_Term = st.slider("Applicants loan amount term",12,480)
     LoanAmount = st.slider("Total loan amount",9,700)
     Credit_History = st.selectbox('Credit_History', ("Clear Debts", "Unclear Debts"))
-    Dependents = st.selectbox("no of dependents",("0","1","2","3","4","heroku login"))
+    Dependents = st.selectbox("no of dependents",("0","1","2","3","4"))
     Property_Area = st.radio("Property Land",("Rural","Semiurban","Urban"))
 
     result = ""
